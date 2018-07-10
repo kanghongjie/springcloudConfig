@@ -37,6 +37,9 @@ spring:
   profiles: prod
   application:
     name: config-client--prod
+  rabbitmq:
+    host: localhost
+    port: 5672
 eureka:
   client:
     service-url:
