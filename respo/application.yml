@@ -36,7 +36,7 @@ server:
 spring:
   profiles: prod
   application:
-    name: config-client--prod
+    name: config-client-prod
   rabbitmq:
     host: localhost
     port: 5672
